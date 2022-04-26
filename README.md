@@ -1,5 +1,14 @@
 # sudokuTool
 
+## commit format:
+[dd/mm/yyyy - hh:mm] content
+
+## file overview:
+main.py -> main code <br>
+plotFunc.py -> function sheet for plotting functions mainly matplotlib <br>
+functionCollection.py -> usefully functions (not in use)
+
+
 ## 1st feature:
 Calculating and plotting ranking of the hardest rows and gaps. <br>
 And finding the locations of all Zeros.
