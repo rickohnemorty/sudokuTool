@@ -2,6 +2,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 
+# matrix to array of average values
 def matrix_to_avgval_array(matrix):
     result = []
     for i in matrix:
@@ -9,6 +10,7 @@ def matrix_to_avgval_array(matrix):
     return result
 
 
+# scatter3D plot of all zeros with values on the z-axe
 def plot_zero_values(input):
     plot1 = plt.figure(1)
     y = input[0]
@@ -32,6 +34,7 @@ def plot_zero_values(input):
     ax.set_zlabel('value')
 
 
+# Bar2D plot for the rows
 def plot_rows_avgvalue(input):
     plot2 = plt.figure(2)
     y = input[1]
