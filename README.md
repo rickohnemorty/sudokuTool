@@ -6,7 +6,8 @@
 ## file overview:
 main.py -> main code <br>
 plotFunc.py -> function sheet for plotting functions mainly matplotlib <br>
-functionCollection.py -> usefully functions (not in use)
+functionCollection.py -> usefully functions (not in use) <br>
+bf.py -> (basicFunctions) functions without external libraries 
 
 
 ## 1st feature:
