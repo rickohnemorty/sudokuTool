@@ -34,7 +34,7 @@ def plot_zero_values(input):
     ax.set_zlabel('value')
 
 
-# Bar2D plot for the rows
+# bar2D plot for the rows
 def plot_rows_avgvalue(input):
     plot2 = plt.figure(2)
     y = input[1]
