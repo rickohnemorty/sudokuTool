@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d2fe319-1de5-4314-86b8-6b91e23d584f" name="Changes" comment="[27/04/2022 - 00:45] Update Readme; added functionCollection.py; renamed plotFunc.py">
-      <change afterPath="$PROJECT_DIR$/bf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="3d2fe319-1de5-4314-86b8-6b91e23d584f" name="Changes" comment="[27/04/2022 - 00:45] Update Readme; added functionCollection.py; renamed plotFunc.py; created bf.py;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python code/bf.py" beforeDir="false" afterPath="$PROJECT_DIR$/python code/bf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python code/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/python code/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python code/plotFunc.py" beforeDir="false" afterPath="$PROJECT_DIR$/python code/plotFunc.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +49,11 @@
     "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/python code" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="sudokuTool" />
@@ -91,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651013182236</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[27/04/2022 - 00:45] Update Readme; added functionCollection.py; renamed plotFunc.py; created bf.py;">
+      <created>1651013875960</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1651013875960</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -120,6 +134,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="[27/04/2022 - 00:45] Update Readme; added functionCollection.py; renamed plotFunc.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="[27/04/2022 - 00:45] Update Readme; added functionCollection.py; renamed plotFunc.py" />
+    <MESSAGE value="[27/04/2022 - 00:45] Update Readme; added functionCollection.py; renamed plotFunc.py; created bf.py;" />
+    <option name="LAST_COMMIT_MESSAGE" value="[27/04/2022 - 00:45] Update Readme; added functionCollection.py; renamed plotFunc.py; created bf.py;" />
   </component>
 </project>

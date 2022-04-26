@@ -1,3 +1,4 @@
+# create and matrix with arrays containing columns of the puzzle
 def create_column(puzzle):
     columns = []
     for i in range(9):
@@ -8,6 +9,7 @@ def create_column(puzzle):
     return columns
 
 
+# count amount of zeros in an array and returns an integer
 def zeros_in_array(array):
     output = 0
     for i in array:
@@ -16,6 +18,7 @@ def zeros_in_array(array):
     return output
 
 
+# !!! not finished !!!
 def square_combine_rows(puzzle):
     output = []
     for i in combine_to_squares(puzzle):
@@ -27,6 +30,7 @@ def square_combine_rows(puzzle):
     return output
 
 
+# split the row array into three
 def split_rows(puzzle):
     splitArr = []
     for i in puzzle:
@@ -36,6 +40,7 @@ def split_rows(puzzle):
     return splitArr
 
 
+# creates a matrix in the shape of the sudoku 3x3 squares
 def combine_to_squares(puzzle):
     splitArr = split_rows(puzzle)
     squares = [[],[],[],
@@ -67,6 +72,7 @@ def combine_to_squares(puzzle):
     return squares
 
 
+# finds the amount of zeros in a square based on the position of the gap (row, column)
 def zeros_in_square(row, column, puzzle):
     squares = square_combine_rows(puzzle)
     output = 0
@@ -95,6 +101,7 @@ def zeros_in_square(row, column, puzzle):
     return output
 
 
+# get position of all zeros and a value of the correlating zeros
 def get_zeros_plus_value(puzzle):
     column = create_column(puzzle)
     values = []
@@ -115,6 +122,8 @@ def get_zeros_plus_value(puzzle):
         counterI += 1
     return [y, x, values]
 
+
+# calculates an average value (correlating zeros) of all zeros in all rows
 def get_rows_avgvalue(puzzle):
     column = create_column(puzzle)
     values = []
