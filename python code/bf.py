@@ -124,12 +124,16 @@ def get_zeros_plus_value(puzzle):
 
 
 # calculates an average value (correlating zeros) of all zeros in all rows
-def get_rows_avgvalue(puzzle):
+def get_rows_avgvalue(puzzle, type):
     column = create_column(puzzle)
     values = []
     counterI = 0
     x = []
     y = []
+    if type == 'column':
+        puzzle = create_column(puzzle)
+    else:
+        pass
     for i in puzzle:
         counterE = 0
         appendRowVal = []

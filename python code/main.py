@@ -16,7 +16,7 @@ puzzle = [[5, 3, 0, 0, 7, 0, 0, 0, 0],
 # main function
 def sudoku(puzzle):
     plotFunc.plot_zero_values(bf.get_zeros_plus_value(puzzle))
-    plotFunc.plot_rows_avgvalue(bf.get_rows_avgvalue(puzzle))
+    plotFunc.plot_rows_avgvalue(bf.get_rows_avgvalue(puzzle, 'row'))
     plotFunc.plt.show()
     return None
 

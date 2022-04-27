@@ -8,7 +8,7 @@ puzzle = [[5,3,0,0,7,0,0,0,0],
           [0,0,0,4,1,9,0,0,5],
           [0,0,0,0,8,0,0,7,9]]
 
-import plotfunctions as ptf
+
 def combine_to_squares(puzzle):
     splitArr = split_rows(puzzle)
     squares = [[],[],[],
