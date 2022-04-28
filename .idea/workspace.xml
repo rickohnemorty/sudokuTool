@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d2fe319-1de5-4314-86b8-6b91e23d584f" name="Changes" comment="[28/04/2022 - 02:13] Update Readme; added expDict.py;">
+    <list default="true" id="3d2fe319-1de5-4314-86b8-6b91e23d584f" name="Changes" comment="[28/04/2022 - 04:08] build visu. for rows and zeros with expDi&#10;;">
+      <change afterPath="$PROJECT_DIR$/python code/async.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python code/bf.py" beforeDir="false" afterPath="$PROJECT_DIR$/python code/unused functions/bf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python code/expDict.py" beforeDir="false" afterPath="$PROJECT_DIR$/python code/expDict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python code/functionCollection.py" beforeDir="false" afterPath="$PROJECT_DIR$/python code/unused functions/functionCollection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python code/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/python code/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python code/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/python code/mainFile.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,11 +51,12 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/python code/unused functions" />
       <recent name="$PROJECT_DIR$/python code" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="expDict" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.async">
+    <configuration name="async" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="sudokuTool" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -69,7 +68,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python code/expDict.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python code/async.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -78,7 +77,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="interactivPlot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="sudokuTool" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python code/interactivPlot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mainFile" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="sudokuTool" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -90,7 +110,49 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python code/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python code/mainFile.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="multiprocessing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="sudokuTool" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python code/multiprocessing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sudokuGame" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="sudokuTool" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python code/sudokuGame.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -101,8 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.expDict" />
+        <item itemvalue="Python.async" />
+        <item itemvalue="Python.multiprocessing" />
+        <item itemvalue="Python.interactivPlot" />
+        <item itemvalue="Python.mainFile" />
+        <item itemvalue="Python.sudokuGame" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651104837464</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="[28/04/2022 - 04:08] build visu. for rows and zeros with expDi&#10;;">
+      <created>1651111720661</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1651111720661</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,6 +247,7 @@
     <MESSAGE value="[27/04/2022 - 00:45] Update Readme; added functionCollection.py; renamed plotFunc.py; created bf.py;" />
     <MESSAGE value="[27/04/2022 - 01:16] added comments" />
     <MESSAGE value="[28/04/2022 - 02:13] Update Readme; added expDict.py;" />
-    <option name="LAST_COMMIT_MESSAGE" value="[28/04/2022 - 02:13] Update Readme; added expDict.py;" />
+    <MESSAGE value="[28/04/2022 - 04:08] build visu. for rows and zeros with expDi&#10;;" />
+    <option name="LAST_COMMIT_MESSAGE" value="[28/04/2022 - 04:08] build visu. for rows and zeros with expDi&#10;;" />
   </component>
 </project>
