@@ -17,7 +17,7 @@ puzzle = [[5, 3, 0, 0, 7, 0, 0, 0, 0],
 def sudoku(puzzle):
     plotFunc.plot_zero_values(expDict.calculate_value_of_all_zeros(puzzle))
     plotFunc.plot_rows_avgvalue(expDict.get_values_rows(puzzle))
-    plotFunc.plt.draw()
+    plotFunc.plt.show()
 
 
 sudoku(puzzle)

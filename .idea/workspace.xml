@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d2fe319-1de5-4314-86b8-6b91e23d584f" name="Changes" comment="[28/04/2022 - 04:08] build visu. for rows and zeros with expDi&#10;;">
-      <change afterPath="$PROJECT_DIR$/python code/async.py" afterDir="false" />
+    <list default="true" id="3d2fe319-1de5-4314-86b8-6b91e23d584f" name="Changes" comment="[28/04/2022 - 05:23] renamed mainFile.py;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python code/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/python code/mainFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python code/mainFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/python code/mainFile.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +54,7 @@
       <recent name="$PROJECT_DIR$/python code" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.async">
+  <component name="RunManager" selected="Python.mainFile">
     <configuration name="async" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="sudokuTool" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -163,10 +162,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.mainFile" />
         <item itemvalue="Python.async" />
         <item itemvalue="Python.multiprocessing" />
         <item itemvalue="Python.interactivPlot" />
-        <item itemvalue="Python.mainFile" />
         <item itemvalue="Python.sudokuGame" />
       </list>
     </recent_temporary>
@@ -215,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651111720661</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="[28/04/2022 - 05:23] renamed mainFile.py;">
+      <created>1651116229305</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1651116229305</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -248,6 +254,7 @@
     <MESSAGE value="[27/04/2022 - 01:16] added comments" />
     <MESSAGE value="[28/04/2022 - 02:13] Update Readme; added expDict.py;" />
     <MESSAGE value="[28/04/2022 - 04:08] build visu. for rows and zeros with expDi&#10;;" />
-    <option name="LAST_COMMIT_MESSAGE" value="[28/04/2022 - 04:08] build visu. for rows and zeros with expDi&#10;;" />
+    <MESSAGE value="[28/04/2022 - 05:23] renamed mainFile.py;" />
+    <option name="LAST_COMMIT_MESSAGE" value="[28/04/2022 - 05:23] renamed mainFile.py;" />
   </component>
 </project>
