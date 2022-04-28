@@ -1,19 +1,19 @@
-puzzle = [[5,3,0,0,7,0,0,0,0],
-          [6,0,0,1,9,5,0,0,0],
-          [0,9,8,0,0,0,0,6,0],
-          [8,0,0,0,6,0,0,0,3],
-          [4,0,0,8,0,3,0,0,1],
-          [7,0,0,0,2,0,0,0,6],
-          [0,6,0,0,0,0,2,8,0],
-          [0,0,0,4,1,9,0,0,5],
-          [0,0,0,0,8,0,0,7,9]]
+puzzle = [[5, 3, 0, 0, 7, 0, 0, 0, 0],
+          [6, 0, 0, 1, 9, 5, 0, 0, 0],
+          [0, 9, 8, 0, 0, 0, 0, 6, 0],
+          [8, 0, 0, 0, 6, 0, 0, 0, 3],
+          [4, 0, 0, 8, 0, 3, 0, 0, 1],
+          [7, 0, 0, 0, 2, 0, 0, 0, 6],
+          [0, 6, 0, 0, 0, 0, 2, 8, 0],
+          [0, 0, 0, 4, 1, 9, 0, 0, 5],
+          [0, 0, 0, 0, 8, 0, 0, 7, 9]]
 
 
 def combine_to_squares(puzzle):
     splitArr = split_rows(puzzle)
-    squares = [[],[],[],
-               [],[],[],
-               [],[],[]]
+    squares = [[], [], [],
+               [], [], [],
+               [], [], []]
     counter = 0
     for i in splitArr:
         if counter == 0 or counter == 3 or counter == 6:
@@ -176,16 +176,17 @@ def get_zeros_plus_value(puzzle):
         for e in i:
             if e == 0:
                 push = []
-                value = zeros_in_array(puzzle[counterI]) + zeros_in_array(column[counterE]) -1 # + zeros_in_square(counterI, counterE, puzzle) - 1
+                value = zeros_in_array(puzzle[counterI]) + zeros_in_array(
+                    column[counterE]) - 1  # + zeros_in_square(counterI, counterE, puzzle) - 1
                 # print('I: ',counterI,':',zeros_in_array(puzzle[counterI]), 'E: ',counterE,':',zeros_in_array(column[counterE]),value,'--' ,zeros_in_square(counterI, counterE, puzzle))
                 zeros.append((counterI, counterE, value))
-                #values.append(value)
+                # values.append(value)
                 push.append(counterI)
                 push.append(counterE)
                 push.append(value)
                 values.append(push)
-                #I.append(zeros_in_array(puzzle[counterI]))
-                #E.append(zeros_in_array(column[counterE]))
+                # I.append(zeros_in_array(puzzle[counterI]))
+                # E.append(zeros_in_array(column[counterE]))
             else:
                 pass
             counterE += 1
@@ -201,11 +202,11 @@ def find_best_pot(puzzle):
 def sudoku(puzzle):
     puzzle = puzzle
     print('get_zeros_plus_value: ', get_zeros_plus_value(puzzle))
-    #print('location_least_zeros: ', location_least_zeros(puzzle))
-    #print(zeros_in_row(puzzle))
-    #print(zeros_in_column(puzzle))
-    #print(ptf.plot_array_fixed_x(zeros_in_column(puzzle)))
-    #print(create_column(puzzle))
+    # print('location_least_zeros: ', location_least_zeros(puzzle))
+    # print(zeros_in_row(puzzle))
+    # print(zeros_in_column(puzzle))
+    # print(ptf.plot_array_fixed_x(zeros_in_column(puzzle)))
+    # print(create_column(puzzle))
     return puzzle
 
 
