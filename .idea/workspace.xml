@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d2fe319-1de5-4314-86b8-6b91e23d584f" name="Changes" comment="[27/04/2022 - 01:16] added comments">
-      <change afterPath="$PROJECT_DIR$/python code/expDict.py" afterDir="false" />
+    <list default="true" id="3d2fe319-1de5-4314-86b8-6b91e23d584f" name="Changes" comment="[28/04/2022 - 02:13] Update Readme; added expDict.py;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python code/functionCollection.py" beforeDir="false" afterPath="$PROJECT_DIR$/python code/functionCollection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python code/bf.py" beforeDir="false" afterPath="$PROJECT_DIR$/python code/unused functions/bf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python code/expDict.py" beforeDir="false" afterPath="$PROJECT_DIR$/python code/expDict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python code/functionCollection.py" beforeDir="false" afterPath="$PROJECT_DIR$/python code/unused functions/functionCollection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python code/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/python code/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +56,7 @@
       <recent name="$PROJECT_DIR$/python code" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.expDict">
+  <component name="RunManager" selected="Python.main">
     <configuration name="expDict" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="sudokuTool" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -100,8 +101,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.expDict" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.expDict" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651015880130</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="[28/04/2022 - 02:13] Update Readme; added expDict.py;">
+      <created>1651104837464</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1651104837464</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,6 +174,7 @@
     <MESSAGE value="[27/04/2022 - 00:45] Update Readme; added functionCollection.py; renamed plotFunc.py" />
     <MESSAGE value="[27/04/2022 - 00:45] Update Readme; added functionCollection.py; renamed plotFunc.py; created bf.py;" />
     <MESSAGE value="[27/04/2022 - 01:16] added comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="[27/04/2022 - 01:16] added comments" />
+    <MESSAGE value="[28/04/2022 - 02:13] Update Readme; added expDict.py;" />
+    <option name="LAST_COMMIT_MESSAGE" value="[28/04/2022 - 02:13] Update Readme; added expDict.py;" />
   </component>
 </project>

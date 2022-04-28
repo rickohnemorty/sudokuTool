@@ -177,8 +177,7 @@ def get_zeros_plus_value(puzzle):
             if e == 0:
                 push = []
                 value = zeros_in_array(puzzle[counterI]) + zeros_in_array(
-                    column[counterE]) - 1  # + zeros_in_square(counterI, counterE, puzzle) - 1
-                # print('I: ',counterI,':',zeros_in_array(puzzle[counterI]), 'E: ',counterE,':',zeros_in_array(column[counterE]),value,'--' ,zeros_in_square(counterI, counterE, puzzle))
+                    column[counterE]) - 1
                 zeros.append((counterI, counterE, value))
                 # values.append(value)
                 push.append(counterI)

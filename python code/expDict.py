@@ -1,5 +1,3 @@
-import plotFunc
-
 puzzle = [[5, 3, 0, 0, 7, 0, 0, 0, 0],
           [6, 0, 0, 1, 9, 5, 0, 0, 0],
           [0, 9, 8, 0, 0, 0, 0, 6, 0],
@@ -44,7 +42,7 @@ def create_dict(puzzle):
     return dictionary
 
 
-def calculate_value_of_all_zeros(puzzle):
+def create_position_zeros(puzzle):
     dictionary = create_dict(puzzle)
     counter = 0
     positions_zeros = []
@@ -54,6 +52,11 @@ def calculate_value_of_all_zeros(puzzle):
         else:
             pass
         counter += 1
+    return positions_zeros
+
+
+def calculate_value_of_all_zeros(puzzle):
+    positions_zeros = create_position_zeros(puzzle)
     # iterate through all positions of zeros
     result = []
     positions_of_values_y = []
@@ -84,9 +87,30 @@ def calculate_value_of_all_zeros(puzzle):
     return [positions_of_values_y, positions_of_values_x, result]
 
 
+def get_values_rows(puzzle):
+    data = calculate_value_of_all_zeros(puzzle)
+    result = []
+    rows = data[0]
+    values = data[2]
+    counter = 0
+    counter_idx = 0
+    append_arr = []
+    for i in rows:
+        if counter_idx != i:
+            result.append(append_arr)
+            append_arr = []
+            counter_idx += 1
+        else:
+            pass
+        append_arr.append(float(values[counter]))
+        counter += 1
+    result.append(append_arr)
+
+    return [result, list(set(rows))]
+
+
 def test(puzzle):
-    plotFunc.plot_zero_values(calculate_value_of_all_zeros(puzzle))
-    plotFunc.plt.show()
+    pass
 
 
-test(puzzle)
+# test(puzzle)
